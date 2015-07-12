@@ -40,10 +40,9 @@ int main()
             }
             printf("e sabitinin %d derilikteki degeri %.15Lf dir.\n",derinlik,e_sabiti+1); //formuldeki +1 eklenir.
         }
-        printf("e sabitinin hesaplanmasi icin pozitif tam sayi giriniz:");
+        printf("e sabitinin hesaplanacagi derinligi giriniz(pozitif tam sayi):");
         scanf("%d",&derinlik);
     }
     printf("Programdan basariyla cikilmistir.");
     return 0;
 }
-
