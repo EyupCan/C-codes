@@ -17,7 +17,7 @@ int main()
     long double e_sabiti,bolum;
 
     printf("Programdan cikmak icin -1 giriniz.\n");
-    printf("e sabitinin hesaplanmasi icin pozitif tam sayi giriniz:");
+    printf("e sabitinin hesaplanacagi derinligi giriniz(pozitif tam sayi):");
     scanf("%d",&derinlik);
 
     while(derinlik != -1)
