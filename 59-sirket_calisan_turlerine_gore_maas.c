@@ -1,3 +1,12 @@
+/********************************************
+*                                           *
+*           Eyüp Can KILINÇDEMİR            *
+*      KARADENİZ TEKNİK UNİVERSİTESİ        *
+*          ceksoft.wordpress.com            *
+*       eyupcankilincdemir@gmail.com        *
+*                                           *
+********************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 
