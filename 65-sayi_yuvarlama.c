@@ -14,7 +14,7 @@
 double tam_sayiya_yuvarla(double);
 double tam_sayiya_yuvarla(double girilen_sayi)
 {
-    int yuvarlanan_sayi;
+    double yuvarlanan_sayi;
 
     yuvarlanan_sayi = floor(girilen_sayi + .5);
 
