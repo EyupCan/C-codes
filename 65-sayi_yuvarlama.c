@@ -11,8 +11,8 @@
 #include <stdlib.h>
 #include <math.h>
 
-double uste_yuvarla(double);
-double uste_yuvarla(double girilen_sayi)
+double tam_sayiya_yuvarla(double);
+double tam_sayiya_yuvarla(double girilen_sayi)
 {
     int yuvarlanan_sayi;
 
@@ -36,7 +36,7 @@ int main()
         scanf("%lf",&yuvarlanacak_sayi);
 
         double yuvarlanmis_sayi;
-        yuvarlanmis_sayi = uste_yuvarla(yuvarlanacak_sayi);
+        yuvarlanmis_sayi = tam_sayiya_yuvarla(yuvarlanacak_sayi);
 
         printf("%12s %15s\n","Orjinal Hali","Yuvarlanmis Hali");
         printf("%12.2f %16.2f\n",yuvarlanacak_sayi,yuvarlanmis_sayi);
