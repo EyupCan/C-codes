@@ -33,11 +33,11 @@ void cevap_karsiliklari(int dogruluk_kontrolu)
 {
     int verilecek_cevap_karsiligi;
 
-    if(dogruluk_kontrolu == 1)                  //cevap dogruysa 0 dan 4 e kadar olan sayilar uretilir
+    if(dogruluk_kontrolu == 1)                  //cevap dogruysa 0-1-2-3-4 sayilari uretilir
     {
         verilecek_cevap_karsiligi = rand() % 5;
     }
-    else                                        //cevap yanlissa 5 den 9 a kadar olan sayilar uretir
+    else                                        //cevap yanlissa 5-6-7-8-9 sayilari uretilir
     {
         verilecek_cevap_karsiligi = (rand() % 5) + 5;
     }
@@ -118,13 +118,13 @@ int main()
 
         int cevap_kontrolu;
         if(girilen_cevap == carpim_sonucu)      //Cevap dogruysa cevap kontrolu 1 yapilir fonksiyon cagrilir
-        {                                       //programdan cikilir.
+        {                                       
             cevap_kontrolu = 1;
             cevap_karsiliklari(cevap_kontrolu);
             dogru_cevap_sayisi++;
         }
         else                                    //Cevap yanlissa cevap kontrolu 0 yapilir fonksiyon cagrilir
-        {                                       //dogru girilene kadar sormaya devam eder.
+        {                                       
             cevap_kontrolu = 0;
             cevap_karsiliklari(cevap_kontrolu);
             yanlis_cevap_sayisi++;
@@ -136,7 +136,7 @@ int main()
             printf("%d sorudan %d dogru cevabiniz %d yanlis cevabiniz var :) \n",MAX_SORU_SAYISI,dogru_cevap_sayisi,yanlis_cevap_sayisi);
 
             if(yanlis_cevap_sayisi >= (MAX_SORU_SAYISI * 3) / 10 )          //cevaplarin %30 ve daha fazla si yanlis ise
-            {                                                               //carpma calisman llazim yazdirilir
+            {                                                               //carpma calisman lazim yazdirilir
                 printf("Carpma islemine calisman lazim :)");
             }
             break;
