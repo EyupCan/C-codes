@@ -26,7 +26,7 @@ int main()
     }
 
     int tur_sayisi,ara_deger_tutucu;
-    for(tur_sayisi = 1 ; tur_sayisi <= DIZI_BOYUT - 1 ;tur_sayisi++)    //eleman sayisindan 2 az olcak sekilde diziyi turlar
+    for(tur_sayisi = 1 ; tur_sayisi <= DIZI_BOYUT - 1 ;tur_sayisi++)    //eleman sayisindan 1 az olcak sekilde diziyi turlar
     {
         for(sira = 0 ;sira <= DIZI_BOYUT - 2 ;sira++)       //diziyi bastan sona gezer ve siralar
         {
